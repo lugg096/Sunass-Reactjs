@@ -1,0 +1,42 @@
+.loginView {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-login {
+    font-weight: bold;
+    font-size: 35px;
+    padding: 10px;
+    text-align: center;
+}
+.btn-login {
+    background-color: #64d082;
+    border-color: transparent;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: normal;
+    padding: 4px;
+    padding-left: 11px;
+    padding-right: 11px;
+    user-select: none;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    text-decoration: none;
+    margin-top: 2px;
+}
+.btn-login:hover {
+    transform: scale(1.1);
+    color: white;
+    text-decoration: none;
+    /* background-color: green; */
+}
+.centerer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}

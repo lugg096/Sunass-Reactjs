@@ -1,0 +1,56 @@
+.title {
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+}
+.adminPage {
+    padding: 3rem;
+    width: 100%;
+}
+.flexDiv {
+    display: flex;
+    justify-content: center;
+    aligntems: center;
+}
+
+.btn-edit, .btn-delete {
+    color: white;
+    font-weight: bold;
+    margin-left: 3px;
+}
+
+.op-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.customModal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    transition:all 0.3s ease;
+    background-color: #000000ee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tablex {
+    width: 100%;
+}
+
+#tabla-principal {
+    width: 100%;
+}
+
+.btn-agregar {
+    transition: all 0.5s ease;
+}
+
+.btn-agregar:hover {
+    transform: scale(1.1);
+}
